@@ -1,4 +1,4 @@
-urdf_assembly_controller:
+urdf_assembly_2_controller:
   # Publish all joint states -----------------------------------
   joint_state_controller:
     type: joint_state_controller/JointStateController

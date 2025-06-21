@@ -1,26 +1,26 @@
 <?xml version="1.0" ?>
-<robot name="urdf_assembly" xmlns:xacro="http://www.ros.org/wiki/xacro">
+<robot name="urdf_assembly_2" xmlns:xacro="http://www.ros.org/wiki/xacro">
 
-<xacro:include filename="$(find urdf_assembly_description)/urdf/materials.xacro" />
-<xacro:include filename="$(find urdf_assembly_description)/urdf/urdf_assembly.trans" />
-<xacro:include filename="$(find urdf_assembly_description)/urdf/urdf_assembly.gazebo" />
+<xacro:include filename="$(find urdf_assembly_2_description)/urdf/materials.xacro" />
+<xacro:include filename="$(find urdf_assembly_2_description)/urdf/urdf_assembly_2.trans" />
+<xacro:include filename="$(find urdf_assembly_2_description)/urdf/urdf_assembly_2.gazebo" />
 <link name="base_link">
   <inertial>
-    <origin xyz="-0.03423625098487144 -0.0039161533991028665 -0.02839103797627507" rpy="0 0 0"/>
+    <origin xyz="-0.0342362509848714 -0.0039161533991028665 -0.02839103797627507" rpy="0 0 0"/>
     <mass value="2.2003666449760275"/>
     <inertia ixx="0.015633" iyy="0.02691" izz="0.040737" ixy="0.000363" iyz="0.000114" ixz="0.001133"/>
   </inertial>
   <visual>
     <origin xyz="0 0 0" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://urdf_assembly_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://urdf_assembly_2_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="0 0 0" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://urdf_assembly_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://urdf_assembly_2_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
@@ -34,14 +34,14 @@
   <visual>
     <origin xyz="0.002859 0.005179 0.00232" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://urdf_assembly_description/meshes/link_1_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://urdf_assembly_2_description/meshes/link_1_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="0.002859 0.005179 0.00232" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://urdf_assembly_description/meshes/link_1_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://urdf_assembly_2_description/meshes/link_1_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
@@ -55,14 +55,14 @@
   <visual>
     <origin xyz="0.002859 0.005179 -0.13368" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://urdf_assembly_description/meshes/link_2_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://urdf_assembly_2_description/meshes/link_2_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="0.002859 0.005179 -0.13368" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://urdf_assembly_description/meshes/link_2_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://urdf_assembly_2_description/meshes/link_2_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
@@ -76,14 +76,14 @@
   <visual>
     <origin xyz="0.002698 0.005179 -0.432846" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://urdf_assembly_description/meshes/link_3_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://urdf_assembly_2_description/meshes/link_3_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="0.002698 0.005179 -0.432846" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://urdf_assembly_description/meshes/link_3_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://urdf_assembly_2_description/meshes/link_3_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
@@ -97,35 +97,35 @@
   <visual>
     <origin xyz="-0.057302 0.005179 -0.530733" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://urdf_assembly_description/meshes/link_4_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://urdf_assembly_2_description/meshes/link_4_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="-0.057302 0.005179 -0.530733" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://urdf_assembly_description/meshes/link_4_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://urdf_assembly_2_description/meshes/link_4_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
 
 <link name="link_5_1">
   <inertial>
-    <origin xyz="0.05519576996196429 8.727471744081339e-08 0.020926890757093308" rpy="0 0 0"/>
-    <mass value="3.3959653172113"/>
+    <origin xyz="0.05519576996196435 8.727471742780296e-08 0.020926890757093308" rpy="0 0 0"/>
+    <mass value="3.395965317211299"/>
     <inertia ixx="0.007088" iyy="0.011532" izz="0.008294" ixy="0.0" iyz="-0.0" ixz="-0.002334"/>
   </inertial>
   <visual>
     <origin xyz="-0.274302 0.005096 -0.530663" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://urdf_assembly_description/meshes/link_5_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://urdf_assembly_2_description/meshes/link_5_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="-0.274302 0.005096 -0.530663" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://urdf_assembly_description/meshes/link_5_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://urdf_assembly_2_description/meshes/link_5_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
@@ -139,14 +139,35 @@
   <visual>
     <origin xyz="-0.391802 0.005096 -0.530663" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://urdf_assembly_description/meshes/link_6_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://urdf_assembly_2_description/meshes/link_6_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="-0.391802 0.005096 -0.530663" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://urdf_assembly_description/meshes/link_6_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://urdf_assembly_2_description/meshes/link_6_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="link_7_1">
+  <inertial>
+    <origin xyz="0.05912945593498742 9.350275258987462e-07 -0.0011405877959500543" rpy="0 0 0"/>
+    <mass value="2.520414679263601"/>
+    <inertia ixx="0.001981" iyy="0.006996" izz="0.007915" ixy="1e-06" iyz="0.0" ixz="-9.8e-05"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.396802 0.005096 -0.530663" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://urdf_assembly_2_description/meshes/link_7_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.396802 0.005096 -0.530663" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://urdf_assembly_2_description/meshes/link_7_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
@@ -197,6 +218,12 @@
   <child link="link_6_1"/>
   <axis xyz="1.0 0.0 0.0"/>
   <limit upper="3.141593" lower="-3.141593" effort="100" velocity="100"/>
+</joint>
+
+<joint name="joint_7" type="fixed">
+  <origin xyz="0.005 0.0 0.0" rpy="0 0 0"/>
+  <parent link="link_6_1"/>
+  <child link="link_7_1"/>
 </joint>
 
 </robot>

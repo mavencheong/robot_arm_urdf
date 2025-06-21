@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<robot name="urdf_assembly" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+<robot name="urdf_assembly_2" xmlns:xacro="http://www.ros.org/wiki/xacro" >
 
 <transmission name="joint_1_tran">
   <type>transmission_interface/SimpleTransmission</type>
